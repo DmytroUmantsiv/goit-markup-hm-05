@@ -735,13 +735,10 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .check-element {
+.modal-check:checked + .check-text .check-element {
   background-color: #404bbf;
   border: none;
-}
-
-.modal-check:checked + .check-element .check-icon {
-  fill: #f4f4fd;
+  fill: #f4f4f4;
 }
 
 .modal-btn {
