@@ -650,7 +650,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
 }
 
@@ -691,11 +691,14 @@ img {
   color: #8e8f99;
 }
 
+.textarea-cover {
+  margin-bottom: 16px;
+}
+
 .textarea-cover:focus-within .modal-textarea {
   border-color: #4d5ae5;
 }
 .check-item {
-  margin-top: 16px;
   margin-bottom: 24px;
 }
 
