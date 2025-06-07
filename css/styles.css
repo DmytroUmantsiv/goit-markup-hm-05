@@ -546,6 +546,7 @@ img {
   position: absolute;
   top: 50%;
   right: 24px;
+  margin-left: 16px;
   transform: translateY(-50%);
 }
 
